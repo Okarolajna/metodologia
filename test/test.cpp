@@ -11,7 +11,7 @@ if(multiple(1) == 0){
     return 0;
 }
 
-if(multiple(-1) < 0){
+if(multiple(0) < 0){
     cout << "The number must be bigger than 0!" << endl;
     return 0;
 }
